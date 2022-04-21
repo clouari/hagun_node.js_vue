@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 node_modules/.bin/prettier
+=======
+node_modules/.package-lock.json
+>>>>>>> 4d552981485029262d64f13d0931613553a4a228
 node_modules/.bin/prettier
 node_modules/prettier/bin-prettier.js
 node_modules/prettier/cli.js
