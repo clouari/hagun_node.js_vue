@@ -2,6 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DataBinding from '../views/DataBinding.vue'
 import DataBindingInputText from '../views/DataBindingInputText.vue'
+import DataBindingButton from '../views/DataBindingButton'
+import DataBindingList from '../views/DataBindingList'
+import RenderingIf from '../views/RenderingIf'
+import EventClick from '../views/EventClick'
 
 const routes = [
   {
@@ -28,6 +32,26 @@ const routes = [
     path: '/databindinginputtext',
     name: 'DataBindingInputText',
     component: DataBindingInputText
+  },
+  {
+    path: '/databindingbutton',
+    name: 'DataBindingButton',
+    component: DataBindingButton
+  },
+  {
+    path: '/databindinglist',
+    name: 'DataBindList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingif',
+    name: 'RenderingIf',
+    component: RenderingIf
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: EventClick
   }
 
 ]
