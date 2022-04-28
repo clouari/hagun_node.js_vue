@@ -1,23 +1,25 @@
 <template>
     <div>
-        <button type="button" @click="one(), two()">Click</button>
-        <p>The counter is : {{ counter }}</p>
+        <select v-model="selectedValue" @change="changeSelect">
+            <option value="월">월</option>
+            <option value="화">화</option>
+            <option value="수">수</option>
+            <option value="목">목</option>
+            <option value="금">금</option>
+        </select>
     </div>
 </template>
 <script>
 
 export default {
-//   data () {
-//     return {
-//       counter: 0
-//     }
-//   },
+  data () {
+    return {
+      selectedValue: ''
+    }
+  },
   methods: {
-    one () {
-      alert('One')
-    },
-    two () {
-      alert('Two')
+    changeSelect () {
+      alert(this.selectedValue)
     }
   }
 }
