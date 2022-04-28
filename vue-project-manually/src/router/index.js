@@ -6,6 +6,7 @@ import DataBindingButton from '../views/DataBindingButton'
 import DataBindingList from '../views/DataBindingList'
 import RenderingIf from '../views/RenderingIf'
 import EventClick from '../views/EventClick'
+import TheCw from '../views/TheCw'
 
 const routes = [
   {
@@ -52,6 +53,11 @@ const routes = [
     path: '/eventclick',
     name: 'EventClick',
     component: EventClick
+  },
+  {
+    path: '/thecw',
+    name: 'TheCw',
+    component: TheCw
   }
 
 ]
