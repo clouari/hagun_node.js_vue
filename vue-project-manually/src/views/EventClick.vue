@@ -1,24 +1,23 @@
 <template>
     <div>
-        <button type="button" @click="increaseCounter">더하기</button>
-        <button type="button" @click="decreaseCounter">빼기</button>
+        <button type="button" @click="one(), two()">Click</button>
         <p>The counter is : {{ counter }}</p>
     </div>
 </template>
 <script>
 
 export default {
-  data () {
-    return {
-      counter: 0
-    }
-  },
+//   data () {
+//     return {
+//       counter: 0
+//     }
+//   },
   methods: {
-    increaseCounter () {
-      this.counter = this.counter + 1
+    one () {
+      alert('One')
     },
-    decreaseCounter () {
-      this.counter = this.counter - 1
+    two () {
+      alert('Two')
     }
   }
 }
