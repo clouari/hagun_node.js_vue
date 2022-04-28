@@ -7,7 +7,8 @@
     <router-link to="/databindingbutton"> DataBindingButton</router-link> |
     <router-link to="/databindinglist"> DataBindingList</router-link> |
     <router-link to="/renderingif"> RenderingIf</router-link> |
-    <router-link to="/eventclick"> eventclick</router-link>
+    <router-link to="/eventclick"> eventclick</router-link> |
+    <router-link to="/thecw"> TheCw</router-link>
     <router-view/>
   </nav>
 
