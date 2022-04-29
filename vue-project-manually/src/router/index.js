@@ -7,6 +7,7 @@ import DataBindingList from '../views/DataBindingList'
 import RenderingIf from '../views/RenderingIf'
 import EventClick from '../views/EventClick'
 import TheCw from '../views/TheCw'
+import TheWatch from '../views/TheWatch'
 
 const routes = [
   {
@@ -58,6 +59,11 @@ const routes = [
     path: '/thecw',
     name: 'TheCw',
     component: TheCw
+  },
+  {
+    path: '/thewatch',
+    name: 'TheWatch',
+    component: TheWatch
   }
 
 ]
