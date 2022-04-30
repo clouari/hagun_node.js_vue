@@ -3,10 +3,10 @@
     <table>
         <thead>
             <tr>
-                <th>제품명</th>
-                <th>가격</th>
-                <th>카테고리</th>
-                <th>배송료</th>
+                <th>이름</th>
+                <th>나이</th>
+                <th>분야</th>
+                <th>성별</th>
             </tr>
         </thead>
         <tbody>
@@ -27,19 +27,16 @@ export default {
     return {
       productList: [
         {
-          product_name: '기계식키보드', product_price: 25000, product_category: '노트북/태블릿', product_delivery_price: 5000
+          product_name: '현민', product_price: '30대', product_category: '하군', product_delivery_price: '남자'
         },
         {
-          product_name: '기계식키보드', product_price: 25000, product_category: '노트북/태블릿', product_delivery_price: 5000
+          product_name: '수빈', product_price: '30대', product_category: '하군', product_delivery_price: '여자'
         },
         {
-          product_name: '기계식키보드', product_price: 25000, product_category: '노트북/태블릿', product_delivery_price: 5000
+          product_name: '수진', product_price: '30대', product_category: '하군', product_delivery_price: '여자'
         },
         {
-          product_name: '기계식키보드', product_price: 25000, product_category: '노트북/태블릿', product_delivery_price: 5000
-        },
-        {
-          product_name: '기계식키보드', product_price: 25000, product_category: '노트북/태블릿', product_delivery_price: 5000
+          product_name: '다희', product_price: '20대', product_category: '하군', product_delivery_price: '여자'
         }
       ]
     }
