@@ -7,11 +7,12 @@
         <textarea v-model="message"> </textarea>
         </div>
         <div>
-            <label><input type="checkbox" value="서울" v-model="checked">서울</label>
-            <label><input type="checkbox" value="부산" v-model="checked">부산</label>
-            <label><input type="checkbox" value="제주" v-model="checked">제주</label>
+            <label><input type="checkbox" value="현민" v-model="checked">현민</label>
+            <label><input type="checkbox" value="수빈" v-model="checked">수빈</label>
+            <label><input type="checkbox" value="수진" v-model="checked">수진</label>
+            <label><input type="checkbox" value="다희" v-model="checked">다희</label>
             <br />
-            <span>체크한 지역: {{ checked }} </span><br /><br />
+            <span>담당자: {{ checked }} </span><br /><br />
         </div>
         <div>
             <label><input type="radio" v-bind:value="radioValue1" v-model="picked">월요일</label>
