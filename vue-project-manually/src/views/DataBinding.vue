@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      htmlString: '<p style="color:red;">This is a red String</p>'
+      htmlString: '<p style="color:red;">단방향, 양방향 예제 만들기</p>'
     }
   }
 }
