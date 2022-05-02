@@ -1,14 +1,14 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/databinding">Data Binding </router-link> |
-    <router-link to="/databindinginputtext"> DataBindingInputText </router-link> |
-    <router-link to="/databindingbutton"> DataBindingButton</router-link> |
-    <router-link to="/databindinglist"> DataBindingList</router-link> |
-    <router-link to="/renderingif"> RenderingIf</router-link> |
-    <router-link to="/eventclick"> eventclick</router-link> |
-    <router-link to="/thecw"> TheCw</router-link> |
+    <router-link to="/">Home</router-link> ||
+    <router-link to="/about">About</router-link> ||
+    <router-link to="/databinding">Data Binding </router-link> ||
+    <router-link to="/databindinginputtext"> DataBindingInputText </router-link> ||
+    <router-link to="/databindingbutton"> DataBindingButton</router-link> ||
+    <router-link to="/databindinglist"> DataBindingList</router-link> ||
+    <router-link to="/renderingif"> RenderingIf</router-link> ||
+    <router-link to="/eventclick"> eventclick</router-link> ||
+    <router-link to="/thecw"> TheCw</router-link> ||
     <router-link to="/thewatch"> Watch</router-link>
     <router-view/>
   </nav>
