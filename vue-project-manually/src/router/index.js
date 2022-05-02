@@ -9,6 +9,7 @@ import EventClick from '../views/EventClick'
 import TheCw from '../views/TheCw'
 import TheWatch from '../views/TheWatch'
 
+// path 와 name, component 지정
 const routes = [
   {
     path: '/',
