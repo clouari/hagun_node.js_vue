@@ -1,2 +1,2 @@
 # hagun_node.js_vue
-node.js 와 Vue 실습
+node.js 와 Vue 개념잡는 레포
